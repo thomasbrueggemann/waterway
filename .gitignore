@@ -56,3 +56,4 @@ routing.js
 
 # Node.js
 node_modules
+*.dat
