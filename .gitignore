@@ -53,3 +53,6 @@ docs/_build/
 # PyBuilder
 target/
 routing.js
+
+# Node.js
+node_modules
