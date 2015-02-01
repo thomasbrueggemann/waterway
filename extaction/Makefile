@@ -1,9 +1,9 @@
 PREFIX?=/usr/local
 CC	= g++-4.9
-CFLAGS	= -Wall -g -std=c++11 -O3
-LDFLAGS	= -L${PREFIX}/lib -pthread -lboost_system -lboost_thread
-EXE = routing
-OBJ = aisgraph.o
+CFLAGS	= -Wall -g -I${PREFIX}/include/mongo 
+LDFLAGS	= -L${PREFIX}/lib -pthread -lmongoclient -lboost_thread -lboost_system -lboost_regex
+EXE = extraction
+OBJ =
 INC =
 
 all: $(EXE)
