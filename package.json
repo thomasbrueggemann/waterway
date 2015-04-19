@@ -1,0 +1,41 @@
+{
+	"name": "waterway",
+	"description": "Waterway vessel routing",
+	"version": "0.0.1",
+	"private": true,
+	"author": "Thomas Brüggemann",
+	"dependencies": {
+		"delaunay-triangulate": "1.1.6",
+		"shpjs": "3.1.6"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"should": ">= 0.0.1",
+		"glob": "*"
+	},
+	"main": "waterway.js",
+	"scripts": {
+		"test": "node_modules/.bin/mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tomaszbrue/waterway.git"
+	},
+	"keywords": [
+		"sailing",
+		"segeln",
+		"gps",
+		"polyline",
+		"tracking",
+		"watersport",
+		"positions",
+		"routing",
+		"vesselrouting",
+		"router"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tomaszbrue/waterway/issues"
+	},
+	"homepage": "https://github.com/tomaszbrue/waterway"
+}
