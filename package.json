@@ -1,6 +1,6 @@
 {
 	"name": "waterway",
-	"description": "Waterway vessel routing",
+	"description": "Waterway routing machine",
 	"version": "0.0.1",
 	"private": true,
 	"author": "Thomas Brüggemann",
