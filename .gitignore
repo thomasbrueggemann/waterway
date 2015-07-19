@@ -59,3 +59,8 @@ routing.js
 node_modules
 *.dat
 *.csv
+data/water_polygons.cpg
+data/water_polygons.dbf
+data/water_polygons.prj
+data/water_polygons.shp
+data/water_polygons.shx
